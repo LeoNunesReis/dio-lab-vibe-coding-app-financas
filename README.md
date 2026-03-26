@@ -73,13 +73,73 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+- Seu **prompt final** (PRD); 
+  ~~~Markdown 
+   ( PRD – App de Organização de Finanças Pessoais
+
+   Contexto
+   Criar um aplicativo de controle financeiro que funcione por meio de conversas em linguagem natural, tornando a experiência mais simples e acessível do que planilhas ou formulários tradicionais.
+
+    Problema
+    Usuários iniciantes em finanças pessoais frequentemente desistem de usar aplicativos porque:
+   - Exigem muita entrada manual.
+   - Não oferecem personalização suficiente.
+   - Tornam o processo burocrático e pouco intuitivo.
+
+   O objetivo é resolver isso com uma experiência conversacional e recomendações automáticas.
+
+   Público-Alvo
+   - Pessoas que querem começar a organizar suas finanças sem complicação.
+   - Usuários iniciantes que buscam praticidade e linguagem acessível.
+  - Compromisso com design universal: o app deve oferecer boa experiência para o maior número possível de usuários, independentemente de idade, nível de letramento digital ou eventuais limitações físicas.
+
+    Funcionalidades-Chave
+     1. Registro de gastos via chat em linguagem natural.
+     2. Classificação automática das transações (ex.: alimentação, transporte).
+     3. Definição e acompanhamento de metas financeiras (ex.: guardar R$200/mês).
+     4. Agente Financeiro que sugere dicas de economia personalizadas.
+     5. Relatórios simples e visuais (gráficos e resumos adaptados ao perfil do usuário).
+  6. Design universal aplicado: interface acessível, linguagem clara, contraste adequado, navegação intuitiva e suporte a diferentes perfis de usuários.
+
+   Entregável da IA (MVP)
+    - Principais telas:
+      - Tela de chat (interação principal).
+      - Tela de metas (configuração e progresso).
+      - Tela de relatórios (gráficos simples).
+  - Recursos necessários:
+       - Processamento de linguagem natural (NLP).
+       - Motor de categorização automática.
+       - Sistema de notificações e recomendações.
+       - Diretrizes de acessibilidade e design universal.
+  - Validação inicial:
+     - Testar com grupo diverso de usuários (diferentes idades e perfis).
+     - Medir engajamento (quantidade de interações no chat).
+     - Avaliar clareza das recomendações e relatórios.
+     - Verificar acessibilidade e usabilidade em diferentes contextos.
+    ~~~
+  - Interações com o Lovable:
+       - 1 Crie um app de Finanças Pessoais com base no seguinte PRD sem exigencia de Login e senha.
+       - 2 O app poderia ter abas bem definidas como salario, aluguel, alimentação, super mercado, diversão, investimento, etc... Seria bom ter gráficos.
+       - 
+  - Prints ou pequenos vídeos das interações com a IA;
+        <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb36e1bd-b601-41f4-9501-7b7474f849ef" />
+        <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ce33da4-b916-4468-9e2d-5d5240e35230" />
+        <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/f33c78b2-6fa6-4a9a-9e7f-bf654b924b07" />
+
+  - Um resumo do que o seu **App de Finanças Pessoais** faz;
+     - O app organiza e diferencia os tipos de gastos para melhor visualização para facilitar a tomada de decisões financeiras.
+           
+  - Uma breve **reflexão sobre o processo**:)
+     - É uma ótima maneira de testar uma ideia que demoraria dias ou até mais de maneira simple e rapida com grande qualidade e complexidade. 
+  
+  - O que funcionou bem?
+     - O app organiza bem e mostra os gastos financeiros em forma de graficos, alem de ser facil a comunicação e natural.
+  - O que não funcionou como o esperado?
+     - Pode ser um pouco dificil de entender o app no começo.
   - O que aprendeu sobre conversar com IAs?
+     - É importante saber definir bem o Prompt para a I.A. entregar um bom resultado e sem falhas. E tambêm é uma incrivel ferramenta que pode ajudar qualquer pessoas de diferentes maneiras.
+   
+  - Resultado Final no Lovable:  https://happy-balance-chat.lovable.app/ 
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
